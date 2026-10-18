@@ -1,0 +1,56 @@
+# Datasets and model artifacts
+data/
+model/
+predictions/
+*.pth
+*.pt
+*.ckpt
+*.npz
+*.npy
+*.h5
+*.hdf5
+*.nii
+*.nii.gz
+
+# Runtime output
+logs/
+TransUNet/results_ui/
+TransUNet/images/tmp/
+TransUNet/.idea/
+*.log
+*.pid
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tools/
+htmlcov/
+.coverage
+coverage.xml
+
+# IDE and OS
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Local secrets
+.env
+.env.*
+!.env.example
+secrets/
+*.pem
+*.key

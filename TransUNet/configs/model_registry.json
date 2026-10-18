@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-17T00:00:00+08:00",
+  "models": [
+    {
+      "id": "transunet-r50-b16-v1",
+      "display_name": "TransUNet R50-ViT-B/16 v1",
+      "checkpoint": "model/TU_Synapse224/TU_pretrain_R50-ViT-B_16_skip3_bs24_224/epoch_149.pth",
+      "config": "R50-ViT-B_16",
+      "n_skip": 3,
+      "num_classes": 9,
+      "img_size": 224,
+      "dataset": "Synapse",
+      "status": "technical_validated",
+      "created_at": "2025-01-16",
+      "registered_at": "2026-10-17T00:00:00+08:00",
+      "file_size_bytes": 421283535,
+      "sha256": "34afbc62bfa1811ec91446055a1d4a045f5cb5caf4ea9fb1b92b66e7a8281ab6",
+      "metrics": {
+        "mean_dice": 0.766565,
+        "mean_hd95": 27.533803
+      },
+      "validation_report": "TransUNet/validation/validation_report.json",
+      "intended_use": "research_education_only"
+    }
+  ]
+}

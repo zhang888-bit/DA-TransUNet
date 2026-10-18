@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the original TransUNet paper and this repository."
+title: "DA-TransUNet: Abdominal Multi-Organ Segmentation Workbench"
+type: software
+license: Apache-2.0
+version: 1.0.0
+date-released: 2026-10-18
+authors:
+  - name: "DA-TransUNet contributors"
+repository-code: "https://github.com/zhang888-bit/DA-TransUNet"
+references:
+  - type: article
+    title: "TransUNet: Transformers Make Strong Encoders for Medical Image Segmentation"
+    authors:
+      - name: "Jieneng Chen"
+      - name: "Yongyi Lu"
+      - name: "Qihang Yu"
+      - name: "Xiangde Luo"
+      - name: "Ehsan Adeli"
+      - name: "Yan Wang"
+      - name: "Le Lu"
+      - name: "Alan L. Yuille"
+      - name: "Yuyin Zhou"
+    year: 2021
+    journal: "arXiv preprint arXiv:2102.0436"

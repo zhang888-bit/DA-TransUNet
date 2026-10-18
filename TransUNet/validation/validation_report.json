@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "report_type": "technical_retrospective_validation",
+  "clinical_validation_status": "not_performed",
+  "generated_at": "2026-10-18T20:39:01+08:00",
+  "model_id": "transunet-r50-b16-v1",
+  "dataset": "Synapse",
+  "source": "TransUNet/test_log/test_log_TU_Synapse224/TU_pretrain_R50-ViT-B_16_skip3_bs24_224.txt",
+  "metrics": {
+    "mean_dice": 0.766565,
+    "mean_hd95": 27.533803
+  },
+  "class_metrics": [
+    {
+      "class_index": 1,
+      "dice": 0.871825,
+      "hd95": 8.094234
+    },
+    {
+      "class_index": 2,
+      "dice": 0.598565,
+      "hd95": 27.250913
+    },
+    {
+      "class_index": 3,
+      "dice": 0.801244,
+      "hd95": 42.713844
+    },
+    {
+      "class_index": 4,
+      "dice": 0.762883,
+      "hd95": 46.878982
+    },
+    {
+      "class_index": 5,
+      "dice": 0.945978,
+      "hd95": 25.203572
+    },
+    {
+      "class_index": 6,
+      "dice": 0.533835,
+      "hd95": 15.722261
+    },
+    {
+      "class_index": 7,
+      "dice": 0.860312,
+      "hd95": 37.623044
+    },
+    {
+      "class_index": 8,
+      "dice": 0.757878,
+      "hd95": 16.783576
+    }
+  ],
+  "thresholds": {
+    "mean_dice_min": 0.7,
+    "mean_hd95_max": 30.0,
+    "per_class_dice_min": 0.5
+  },
+  "checks": {
+    "mean_dice_at_least_0.7": true,
+    "mean_hd95_at_most_30.0": true,
+    "each_class_dice_at_least_0.50": true
+  },
+  "passed": true,
+  "limitations": [
+    "This is a retrospective technical validation on a public research dataset.",
+    "It is not a prospective clinical trial and does not establish diagnostic safety or efficacy.",
+    "External-site validation, reader studies, and regulatory review have not been performed."
+  ],
+  "intended_use": "research_education_only"
+}

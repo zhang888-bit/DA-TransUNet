@@ -1,0 +1,13 @@
+DA-TransUNet
+Copyright 2026 DA-TransUNet contributors
+
+This product includes software and architectural ideas derived from TransUNet:
+https://github.com/Beckschen/TransUNet
+
+The original TransUNet repository is licensed under the Apache License 2.0.
+The pretrained Vision Transformer lineage and related model naming originate
+from Google Research's Vision Transformer work and the ViT-PyTorch
+implementation acknowledged by TransUNet.
+
+This repository does not redistribute the Synapse dataset or the large PyTorch
+checkpoint used by the local demonstration workspace.
